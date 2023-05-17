@@ -23,6 +23,19 @@ public class Main {
             System.out.println("Год является високосным");
         }else
             System.out.println("Год не является високосным");
+        /* task4 */
+        int deliveryDistance = 95;
+        int daysForDelivery = 0;
+        if (deliveryDistance <= 20){
+            daysForDelivery += 1;
+            System.out.println("Потребуется дней: " + daysForDelivery);
+        } else if (deliveryDistance > 20 && deliveryDistance <= 60){
+            daysForDelivery += 2;
+            System.out.println("Потребуется дней: " + daysForDelivery);
+        } else if (deliveryDistance > 60 && deliveryDistance < 100){
+            daysForDelivery += 3;
+            System.out.println("Потребуется дней: " + daysForDelivery);
+        }else System.out.println("Доставка не осуществляется");
     }
 
 }
