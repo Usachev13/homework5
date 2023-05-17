@@ -17,5 +17,12 @@ public class Main {
             }else { System.out.println("Установите версию приложения для Android по ссылке");
             }
         }
+        /* task3 */
+        int year = 2021;
+        if (year % 4 == 0 && year % 100 != 0 || year % 400 == 0) {
+            System.out.println("Год является високосным");
+        }else
+            System.out.println("Год не является високосным");
     }
+
 }
